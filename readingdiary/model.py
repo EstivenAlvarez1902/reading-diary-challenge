@@ -20,13 +20,18 @@ class Book:
     BAD: int = 1
     UNRATED: int = -1
 
-    def __init__(self, isbn: str, tittle: str,author: str, pages: int):
+    def __init__(self, isbn: str, tittle: str,author: str, pages: int, rating: int ,notes: list):
         self.isbn: str = isbn
         self.tittle: str = tittle
         self.author: str = author
         self.pages: int = pages
+        self.rating: int = Book.UNRATED
+        self.notes: list = []
 
 
-    def rating
+
+
+
+
 
 
